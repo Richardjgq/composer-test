@@ -1,5 +1,5 @@
 {
-    "name": "richard/composer-test",
+    "name": "richardjgq/composer-test",
     "description": "the first try to create a composer plugin",
     "type": "composer-plugin",
     "autoload": {
