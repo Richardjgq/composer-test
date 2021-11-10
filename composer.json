@@ -1,26 +1,13 @@
 {
     "name": "richardjgq/composer-test",
-    "description": "the first try to create a composer plugin",
-    "type": "composer-plugin",
+    "description": "this is the first try to create a library",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Richard\\ComposerTest\\": "src/"
+            "Richardjgq\\ComposerTest\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "jinguoqiang",
-            "email": "freeforyou@126.com"
-        }
-    ],
     "minimum-stability": "dev",
-    "require": {
-    	"php": ">=7.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "HeadPlan\\Jack\\": "src/HeadPlan/Jack",
-            "HeadPlan\\Richard\\": "src/HeadPlan/Richard"
-        }
-    }
+    "require": {}
 }
