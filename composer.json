@@ -5,7 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Richardjgq\\ComposerTest\\": "src/"
+            "Richardjgq\\ComposerTest\\": "src/",
+            "HeadPlan\\Richard\\" : "src/HeadPlan/Richard",
+            "HeadPlan\\Jack\\" : "src/HeadPlan/Jack"
         }
     },
     "minimum-stability": "dev",
